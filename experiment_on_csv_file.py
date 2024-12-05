@@ -18,22 +18,22 @@ sorted_data = data.sort_values(by='price', ascending=False)
 print("\nTop 5 most expensive houses:")
 print(sorted_data.iloc[:5])
 
-# plt.plot([1, 2, 3, 4], [10, 20, 25, 30], color='blue', marker='o')
-# plt.title('Line Plot')
-# plt.xlabel('X-axis')
-# plt.ylabel('Y-axis')
-# plt.grid()
-# plt.show()
+plt.plot([1, 2, 3, 4], [10, 20, 25, 30], color='blue', marker='o')
+plt.title('Line Plot')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.grid()
+plt.show()
 
-# labels = ['Python', 'Java', 'C++', 'Ruby']
-# sizes = [40, 30, 20, 10]
-# plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
-# plt.title('Pie Chart')
-# plt.show()
+labels = ['Python', 'Java', 'C++', 'Ruby']
+sizes = [40, 30, 20, 10]
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
+plt.title('Pie Chart')
+plt.show()
 
-# plt.plot([1, 10, 100], [1, 10, 100])
-# plt.yscale('log')
-# plt.xscale('log')
-# plt.title('Logarithmic Scale')
-# plt.show()
+plt.plot([1, 10, 100], [1, 10, 100])
+plt.yscale('log')
+plt.xscale('log')
+plt.title('Logarithmic Scale')
+plt.show()
 
